@@ -1,6 +1,7 @@
 var webpack = require('webpack');
 var HtmlWebpackPlugin = require('html-webpack-plugin');
-var ManifestPlugin = require('webpack-manifest-plugin');
+var ManifestPlugin = require('webpack-manifest-plugin');//t a list of all the static assets that we’re generating.
+// once we start caching them to save load times.
 
 module.exports = {
   entry: __dirname + '/src/index.js',

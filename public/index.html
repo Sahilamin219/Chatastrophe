@@ -6,14 +6,42 @@
 	<link rel="shortcut icon" href="assets/favicon.ico" type="inage/x-icon" href="">
 </head>
 <body>
-	<img src="assets/icon-256.png" id="test-image"/>
-	<h1>Hello world oh made so far</h1>
+	<!-- <img src="assets/icon-256.png" id="test-image"/> -->
+	<!-- <h1>Hello world oh made so far</h1> -->
 <div id="root"></div>
-<script src="bundle.js"></script>
+<script >window.addEventListener('resize', function() { console.log('windowsize changed'); });</script>
+<script src="/secrets.js"></script>
+
+<script src="/bundle.js"></script>
 <!-- <script src="../node_modules/react/dist/react.js"></script>
 <script src="../node_modules/react-dom/dist/react-dom.js"></script>
 <script>
 	ReactDOM.render(React.createElement('h1', null, 'hello from react !'), document.getElementById('root'));
 </script> -->
+
+
+<script src="https://www.gstatic.com/firebasejs/4.1.2/firebase.js"></script> 
+<script>
+  // Your web app's Firebase configuration
+  // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+  var firebaseConfig = {
+    apiKey: "AIzaSyB5BPpbNHJEEQITAv2HtCIjRvdnt2HKPXM",
+    authDomain: "quickchaton-58d69.firebaseapp.com",
+    databaseURL: "https://quickchaton-58d69-default-rtdb.firebaseio.com",
+    projectId: "quickchaton-58d69",
+    storageBucket: "quickchaton-58d69.appspot.com",
+    messagingSenderId: "27398030737",
+    appId: "1:27398030737:web:3329f16029a12033f9c630",
+    measurementId: "G-Q4B9W1VFWR",
+    databaseURL: "https://quickchaton-58d69-default-rtdb.firebaseio.com"
+  };
+  // Initialize Firebase
+  window.firebase = firebase
+  firebase.initializeApp(firebaseConfig);
+</script>
+
 </body>
 </html> 
+
+
+<!-- https://chatastrophe-9b260.firebaseapp.com/ -->

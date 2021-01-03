@@ -4,18 +4,23 @@
 // var ReactDOM = require('react-dom');
 import React from 'react';
 import ReactDOM from 'react-dom';
-
-import App from './App'
+import {BrowserRouter} from 'react-router-dom';
+import App from './components/App';
 
 // ReactDOM.render(React.createElement('h1', null, 'hello from react !'), document.getElementById('root'));
 // ReactDOM.render( <h1> hello from ES6! </h1> , document.getElementById('root'));
-ReactDOM.render( <App/> , document.getElementById('root'));
+ReactDOM.render(
+	<BrowserRouter>
+ 		<App/> 
+	</BrowserRouter> , document.getElementById('root'));
 
 if (module.hot) {
-  module.hot.accept('./App', () => {
-    const NextApp = require('./App').default;
+  	module.hot.accept('./components/App', () => {
+    const NextApp = require('./components/App').default;
     ReactDOM.render(
-     <App/>,
+     <BrowserRouter>
+        <App />
+      </BrowserRouter>,
      document.getElementById('root')
     );
   });

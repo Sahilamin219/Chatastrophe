@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "build": "node scripts/copy_assets.js && node_modules/.bin/webpack --config webpack.config.prod.js",
-    "start": "node_modules/.bin/webpack-dev-server"
+    "start": "node_modules/.bin/webpack-dev-server",
+    "deploy": "npm run build && firebase deploy"
   },
   "au thor": "",
   "license": "ISC",
@@ -22,6 +23,7 @@
     "react": "15.6.1",
     "react-dom": "15.6.1",
     "react-hot-loader": "3.0.0",
+    "react-router-dom": "^4.2.2",
     "style-loader": "^0.18.2",
     "webpack": "^3.5.4",
     "webpack-dev-server": "^2.7.1",
