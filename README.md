@@ -34,7 +34,8 @@ Read instructions below for using assets from JavaScript and HTML.
 
 You can, however, create more top-level directories.
 They will not be included in the production build so you can use them for things like documentation.
-Available Scripts
+
+# Available Scripts
 
 In the project directory, you can run:
 npm start
