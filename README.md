@@ -58,6 +58,8 @@ Your app is ready to be deployed!
 
 See the section about deployment for more information.
 npm run eject
+![Screenshot from 2021-07-28 23-07-06](https://user-images.githubusercontent.com/48405411/127371662-0039bbd1-e77f-448d-b096-15e46b9fd172.png)
+![Screenshot from 2021-07-28 23-06-48](https://user-images.githubusercontent.com/48405411/127371668-a8c443b5-d22f-4319-abf2-6933261ca483.png)
 
 Note: this is a one-way operation. Once you eject, you can’t go back!
 
