@@ -1,4 +1,16 @@
 # Chatastrophe
+ > ### How to use this app ?
+ 
+ New users functionality isn't available for now . You can login into the app from either of the following users 
+
+     username : sahil@gmail.com
+     password : 123456
+    
+            OR
+ 
+     username : sahilamin219@gmail.com 
+     password : sahil@123
+
 
 
  > ### Folder Structure
