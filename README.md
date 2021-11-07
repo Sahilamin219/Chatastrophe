@@ -88,10 +88,12 @@ You don’t have to ever use eject. The curated feature set is suitable for smal
 
 
 I have fixed that issues for react js firebase building app for production
-1.) firebase init
-2.) What do you want to use as your public directory? build
-3.) Configure as a single-page app (rewrite all urls to /index.html)? Yes
-4.) npm run build
-5.) firebase serve
-6.) firebase deploy
+
+           1.) firebase init
+           2.) What do you want to use as your public directory? build
+           3.) Configure as a single-page app (rewrite all urls to /index.html)? Yes
+           4.) npm run build
+           5.) firebase serve
+           6.) firebase deploy
+           
 finish..
