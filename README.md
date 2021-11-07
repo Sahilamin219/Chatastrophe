@@ -1,7 +1,7 @@
 # Chatastrophe
  > ### How to use this app ?
  
- New users functionality isn't available for now . You can login into the app from either of the following users 
+ New users functionality is <strong>available</strong> now . You can also login into the app from either of the following users 
 
      username : sahil@gmail.com
      password : 123456
@@ -85,3 +85,13 @@ You don’t have to ever use eject. The curated feature set is suitable for smal
 
 ![Screenshot from 2021-08-31 12-36-00](https://user-images.githubusercontent.com/48405411/131458446-1dab85e6-1f8a-4285-8ad3-f280c15beb02.png)
 ![Screenshot from 2021-08-31 12-28-58](https://user-images.githubusercontent.com/48405411/131458452-b4fc685c-e0e5-48d2-b43b-20a005dd99b7.png)
+
+
+I have fixed that issues for react js firebase building app for production
+1.) firebase init
+2.) What do you want to use as your public directory? build
+3.) Configure as a single-page app (rewrite all urls to /index.html)? Yes
+4.) npm run build
+5.) firebase serve
+6.) firebase deploy
+finish..
